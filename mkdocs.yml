@@ -7,10 +7,12 @@ copyright: 'Copyright &copy; 2020 - 2021 橘子编程'
 
 # Contents
 nav:
-  - 青铜: usaco/bronze/index.md
-  - 白银: usaco/silver/index.md
-  - 黄金: usaco/golden/index.md
-  - CF: cf/index.md
+  - USACO:
+    - 青铜: usaco/bronze/index.md
+    - 白银: usaco/silver/index.md
+    - 黄金: usaco/golden/index.md
+  - CODEFORCES:
+    - CF: cf/index.md
 
 # Theme
 theme: readthedocs
@@ -36,58 +38,52 @@ theme: readthedocs
 #     code: 'Fira Mono'
 
 # Customization
-# extra:
-#   search:
-#     language: 'jp'
-#   disqus: 'jzcode'
-#   copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
-#   pagetime: 'on'
-#   manifest: 'manifest.webmanifest'
-#   githash: ''
+extra:
+  search:
+    language: 'zh'
+  disqus: 'jzcode'
+  copyright: '<a href="https://creativecommons.org/licenses/by-sa/4.0/deed.zh">CC BY-SA 4.0</a> 和 <a href="https://github.com/zTrix/sata-license">SATA</a>'
+  pagetime: 'on'
+  manifest: 'manifest.webmanifest'
+  githash: ''
 
-# extra_javascript:
-#   - '_static/js/extra.js?v=16'
-#   - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
+extra_javascript:
+  - 'https://cdn.jsdelivr.net/npm/mathjax@2.7.5/MathJax.js?config=TeX-MML-AM_CHTML'
 
-# extra_javascript:
-#   - https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.0/MathJax.js?config=TeX-AMS-MML_HTMLorMML
 
-# markdown_extensions:
-#   - mdx_math
-
-# extra_css:
-#   - '_static/css/extra.css?v=13'
+extra_css:
+  - '_static/css/extra.css?v=13'
 
 # Extensions
-# markdown_extensions:
-#   - admonition
-#   - codehilite:
-#       guess_lang: false
-#       linenums: true
-#   - def_list
-#   - footnotes
-#   - meta
-#   - toc:
-#       permalink: true
-#   - pymdownx.arithmatex
-#   - pymdownx.caret
-#   - pymdownx.critic
-#   - pymdownx.details
-#   - pymdownx.emoji:
-#       emoji_generator: !!python/name:pymdownx.emoji.to_svg
-#   - pymdownx.highlight:
-#       linenums: true
-#   - pymdownx.inlinehilite
-#   - pymdownx.keys
-#   - pymdownx.magiclink
-#   - pymdownx.mark
-#   - pymdownx.progressbar
-#   - pymdownx.smartsymbols
-#   - pymdownx.superfences:
-#       custom_fences:
-#         - name: math
-#           class: arithmatex
-#           format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
-#   - pymdownx.tasklist:
-#       custom_checkbox: true
-#   - pymdownx.tilde
+markdown_extensions:
+  - admonition
+  - codehilite:
+      guess_lang: false
+      linenums: true
+  - def_list
+  - footnotes
+  - meta
+  - toc:
+      permalink: true
+  - pymdownx.arithmatex
+  - pymdownx.caret
+  - pymdownx.critic
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:pymdownx.emoji.to_svg
+  - pymdownx.highlight:
+      linenums: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink
+  - pymdownx.mark
+  - pymdownx.progressbar
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: math
+          class: arithmatex
+          format: !!python/name:pymdownx.arithmatex.fence_mathjax_format
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.tilde
